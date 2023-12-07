@@ -1,15 +1,14 @@
-// 2.Foydalanuvchidan 2 ta son kiritishini so'rang va ushbu sonlar kvadratlarining yig'indisini toping
+// 3. Ixtiyoriy to'g'ri to'rtburchakning perimetrini topuvchi algoritm yozing
 
-// Prompt the user to enter the first number
-let firstNumber = prompt("Enter the first number:");
+// Prompt the user to enter the length of the rectangle
+let length = prompt("Enter the length of the rectangle:");
 
-// Prompt the user to enter the second number
-let secondNumber = prompt("Enter the second number:");
+// Prompt the user to enter the width of the rectangle
+let width = prompt("Enter the width of the rectangle:");
 
-// Calculate the sum of the squares
-let sumOfSquares = Math.pow(firstNumber, 2) + Math.pow(secondNumber, 2);
+// Calculate the perimeter
+let perimeter = 2 * (parseFloat(length) + parseFloat(width));
 
 // Display the result
-console.log("The sum of the squares is: " + sumOfSquares);
-
+console.log("The perimeter of the rectangle is: " + perimeter);
 
